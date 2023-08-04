@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg");
+    color: #f5f6f7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+   
+
+  #title{
+    margin-top: 2rem;
+    font-weight: 300;
+    margin: auto;
+    text-align: center;
+  }
+
+  #description{
+    /* margin: 1em auto; */
+    padding: -10em;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.125rem;
+  }
+
+  form {
+    width: 90vw;
+    max-width: 600px;
+    min-width: 500px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: rgb(27, 27, 50, 0.8);
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 2rem;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: white;
+    border: 1px solid white;
+    color: #ffffff;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    height: 2.1em;
+    font-size: 1.1rem;
+    background-color: #37af65;
+    min-width: 400px;
+    cursor: pointer;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+
+  .clue {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #e4e4e4;
+  }
